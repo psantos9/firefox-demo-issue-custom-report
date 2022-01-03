@@ -1,0 +1,28 @@
+{
+  "name": "leanix-custom-report",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build --mode development",
+    "upload": "vue-tsc --noEmit && vite build"
+  },
+  "dependencies": {
+    "vue": "^3.2.26",
+    "@leanix/reporting": "^0.4.94"
+  },
+  "devDependencies": {
+    "vite-plugin-lxr": "^0.0.3",
+    "@vitejs/plugin-vue": "^2.0.1",
+    "@vue/compiler-sfc": "^3.2.26",
+    "typescript": "^4.5.4",
+    "vite": "^2.7.10",
+    "vue-tsc": "^0.30.1"
+  },
+  "author": "",
+  "description": "",
+  "leanixReport": {
+    "id": "net.leanix.demo-firefox",
+    "title": "",
+    "defaultConfig": {}
+  }
+}
